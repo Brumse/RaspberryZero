@@ -9,7 +9,7 @@ sudo apt install rpi-imager
 1. pluggin SD card to computer
 2. Open Raspberry Pi Imager
 3. device ➡Raspbery Zero 2 W
-4. Operation system ➡Raspberry Pi OS(other)➡Raspberry Pi OS Lite(32 bit)
+4. Operation system ➡Raspberry Pi OS(other)➡Raspberry Pi OS(64 bit)
 5. Storage ➡SD-card
 6. Next
 7. Edit settings
