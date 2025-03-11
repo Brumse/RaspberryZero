@@ -23,11 +23,12 @@ sudo apt install rpi-imager
 11. Save and flash the settings to the SD-card
 12. Insert the SD-card in your Raspberry Zero and plugin the powercable.
 
+
 ### Log in to the Zero
 ```bash
 ssh "Name of raspberry".local
 ```
-### Configure git in your raspberry
+### Configure git on your raspberry
 ##### change "yourname","your.email@example.com" and "your-github-username" in the script
 ```bash
 git config --global init.defaultBranch main
@@ -40,8 +41,9 @@ git config --global github.user "your-github-username"
 ssh-keygen -t ed25519 -C "your-email@example.com" -f ~/.ssh/id_ed25519 -N "" 
 
 #Print it on screen for copying and adding to github SSH keys.
-cat ~/.ssh/id_ed25519.pub 
-
+cat ~/.ssh/id_ed25519.pub
+```
+```bash
 # Test git login
 ssh -T git@github.com
 ```
