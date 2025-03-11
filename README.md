@@ -9,14 +9,19 @@ sudo apt install rpi-imager
 1. pluggin SD card to computer
 2. Open Raspberry Pi Imager
 3. device ➡Raspbery Zero 2 W
+     ![picture](./pictures/PiImager.png)
 4. Operation system ➡Raspberry Pi OS(other)➡Raspberry Pi OS(64 bit)
 5. Storage ➡SD-card
 6. Next
 7. Edit settings
+   
+   ![picture](./pictures/editSettings.png)
 8. General  ➡ Setup hostname and passwords under General
-9. Service  ➡enable SSH ➡use password authentication
-10. save and flash the settings to the SD-card
-11. Insert the SD-card in your Raspberry Zero and plugin the powercable.
+
+   ![picture]( ./pictures/wifisettings.png)
+10. Service  ➡enable SSH ➡use password authentication
+11. Save and flash the settings to the SD-card
+12. Insert the SD-card in your Raspberry Zero and plugin the powercable.
 
 ### Log in to the Zero
 ```bash
